@@ -12,3 +12,6 @@ chumsky = { version = "0.9", features = ["spill-stack"] }
 [dependencies.insta]
 version = "1.26"
 # features = ["yaml", "ron"]
+
+[dev-dependencies]
+indoc = "2.0.0"
