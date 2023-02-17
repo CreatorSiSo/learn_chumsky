@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 rym_lexer = { path = "../rym/crates/rym_lexer" }
-chumsky = "0.9"
+chumsky = { version = "0.9", features = ["spill-stack"] }
 
 [dependencies.insta]
 version = "1.26"
