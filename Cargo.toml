@@ -6,7 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-chumsky = { git = "https://github.com/zesterer/chumsky", rev = "1b6db8058134c7ea3efcc45a16e0803671f95226" }
+chumsky = { git = "https://github.com/CreatorSiSo/chumsky", rev = "6dafdbe2d90744c24badeaa3faf0b9cab4fba4a0", features = [
+	"label",
+] }
 
 rym_lexer = { path = "../rym/crates/rym_lexer" }
 owo-colors = "3.5.0"
