@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-chumsky = { git = "https://github.com/zesterer/chumsky", rev = "42d5af5a5710f6d60beedcde1904155e96451568", features = [
+chumsky = { git = "https://github.com/zesterer/chumsky", rev = "e313022b5c972b13db624f033d67fa8ee4787048", features = [
 	"label",
 ] }
 
