@@ -17,3 +17,8 @@ version = "1.26"
 
 [dev-dependencies]
 indoc = "2.0.0"
+
+# smallest binary without compromising on speed
+[profile.tiny]
+inherits = "release"
+lto = "fat"
