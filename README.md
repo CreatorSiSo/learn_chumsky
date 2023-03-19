@@ -1,3 +1,5 @@
 # learn_chumsky
 
-Parser for the Rym programming language now merged into https://github.com/CreatorSiSo/rym.
+A little Parser for the Rym programming language I wrote while learing how to use chumsky.
+
+⚠️ Merged into https://github.com/CreatorSiSo/rym ⚠️
